@@ -1,4 +1,4 @@
 4d-plugin-skypekit
 ==================
 
-4D implementation of the Skype Desktop API and SkypeKit 
+4D implementation of Skype Desktop API and SkypeKit 
