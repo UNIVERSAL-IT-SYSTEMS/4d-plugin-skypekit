@@ -53,9 +53,9 @@
 		D1CB12C5167CBDC500E3BF4C /* libskypekit-cppwrapper_2_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CB12C3167CBDC500E3BF4C /* libskypekit-cppwrapper_2_lib.a */; };
 		D1CB12C6167CBDC500E3BF4C /* libskypekit-cyassl_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CB12C4167CBDC500E3BF4C /* libskypekit-cyassl_lib.a */; };
 		D1CB12CE167CBE6100E3BF4C /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CB12CD167CBE6100E3BF4C /* pem.h */; };
-		D1CF35EB167FC94800C7CF41 /* Skype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CF35EA167FC94800C7CF41 /* Skype.framework */; };
 		D1CF3624167FCC3F00C7CF41 /* skype_delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CF3622167FCC3F00C7CF41 /* skype_delegate.h */; };
 		D1CF3625167FCC3F00C7CF41 /* skype_delegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1CF3623167FCC3F00C7CF41 /* skype_delegate.cpp */; };
+		D1E8B68B16A92327004D5C54 /* Skype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E8B68A16A92327004D5C54 /* Skype.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,9 +107,9 @@
 		D1CB12C3167CBDC500E3BF4C /* libskypekit-cppwrapper_2_lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libskypekit-cppwrapper_2_lib.a"; path = "lib/macos/libskypekit-cppwrapper_2_lib.a"; sourceTree = "<group>"; };
 		D1CB12C4167CBDC500E3BF4C /* libskypekit-cyassl_lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libskypekit-cyassl_lib.a"; path = "lib/macos/libskypekit-cyassl_lib.a"; sourceTree = "<group>"; };
 		D1CB12CD167CBE6100E3BF4C /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pem.h; path = pem/pem.h; sourceTree = "<group>"; };
-		D1CF35EA167FC94800C7CF41 /* Skype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Skype.framework; path = skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks/Skype.framework; sourceTree = "<group>"; };
 		D1CF3622167FCC3F00C7CF41 /* skype_delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skype_delegate.h; sourceTree = "<group>"; };
 		D1CF3623167FCC3F00C7CF41 /* skype_delegate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = skype_delegate.cpp; sourceTree = "<group>"; };
+		D1E8B68A16A92327004D5C54 /* Skype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Skype.framework; path = skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks/Skype.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				D130064F12F02D9700702C0E /* Cocoa.framework in Frameworks */,
 				D1CB12C5167CBDC500E3BF4C /* libskypekit-cppwrapper_2_lib.a in Frameworks */,
 				D1CB12C6167CBDC500E3BF4C /* libskypekit-cyassl_lib.a in Frameworks */,
-				D1CF35EB167FC94800C7CF41 /* Skype.framework in Frameworks */,
+				D1E8B68B16A92327004D5C54 /* Skype.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,11 +143,11 @@
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				D1CF35EA167FC94800C7CF41 /* Skype.framework */,
 				D1CB12C3167CBDC500E3BF4C /* libskypekit-cppwrapper_2_lib.a */,
 				D1CB12C4167CBDC500E3BF4C /* libskypekit-cyassl_lib.a */,
 				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
 				D130064E12F02D9700702C0E /* Cocoa.framework */,
+				D1E8B68A16A92327004D5C54 /* Skype.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -392,10 +392,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
 				DEPLOYMENT_LOCATION = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
+				FRAMEWORK_SEARCH_PATHS = skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks/;
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -436,10 +433,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_LOCATION = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
+				FRAMEWORK_SEARCH_PATHS = skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks/;
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_TRIGRAPHS = NO;
@@ -477,10 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEPLOYMENT_LOCATION = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
+				FRAMEWORK_SEARCH_PATHS = skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks/;
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/skypekit.4dbase/Plugins/skypekit.bundle/Contents/Frameworks\"";
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
