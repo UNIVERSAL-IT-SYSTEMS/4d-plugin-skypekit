@@ -254,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>319</real>
+								<real>334</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -281,7 +281,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {319, 425}}</string>
+							<string>{{0, 0}, {334, 425}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -297,7 +297,7 @@
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>319</real>
+							<real>334</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>180 394 931 484 0 0 1440 878 </string>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D164182316F742BF00377EA3</string>
+										<string>D1077C9818434D6B004ABB92</string>
 										<key>history</key>
 										<array>
 											<string>D1CB12D4167CBF8800E3BF4C</string>
@@ -350,7 +350,7 @@
 											<string>D1E8B65E16A921D5004D5C54</string>
 											<string>D1B86F0316B8221400302182</string>
 											<string>D16EB0BB16C1E0DE00F93696</string>
-											<string>D16EB0BC16C1E0DE00F93696</string>
+											<string>D164182316F742BF00377EA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,14 +362,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {590, 392}}</string>
+								<string>{{0, 0}, {590, 390}}</string>
 								<key>RubberWindowFrame</key>
 								<string>180 394 931 484 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>392pt</string>
+							<string>390pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -377,19 +377,19 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20506471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>詳細</string>
+								<string>Detail</string>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 397}, {590, 46}}</string>
+								<string>{{0, 395}, {590, 48}}</string>
 								<key>RubberWindowFrame</key>
 								<string>180 394 931 484 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>46pt</string>
+							<string>48pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -408,9 +408,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D164182416F742BF00377EA3</string>
+				<string>D1077C9918434D6B004ABB92</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D164182516F742BF00377EA3</string>
+				<string>D1077C9A18434D6B004ABB92</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -595,7 +595,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>XCMainBuildResultsModuleGUID</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ビルド結果</string>
+								<string>Build Results</string>
 								<key>XCBuildResultsTrigger_Collapse</key>
 								<integer>1021</integer>
 								<key>XCBuildResultsTrigger_Open</key>
@@ -629,7 +629,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D1E0EEBF167C9ABE009DCE29</string>
-				<string>D164182616F742BF00377EA3</string>
+				<string>D1077C9B18434D6B004ABB92</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

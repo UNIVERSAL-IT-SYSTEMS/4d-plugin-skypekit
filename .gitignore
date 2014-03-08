@@ -1,24 +1,7 @@
-
-skypekit/.DS_Store
-
-skypekit/.DS_Store
-
-skypekit/lib/macos/.DS_Store
-
-skypekit/lib/windows64/.DS_Store
-
 skypekit/pem/pem.h
 
-skypekit/lib/windows/.DS_Store
+*.DS_Store
 
-skypekit/lib/macos/.DS_Store
+*.suo
 
-skypekit/4D Plugin API/.DS_Store
-
-skypekit/.DS_Store
-
-skypekit/4D Plugin API/Classes/.DS_Store
-
-skypekit/include/.DS_Store
-
-.DS_Store
+*.gz
